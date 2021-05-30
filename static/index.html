@@ -63,7 +63,8 @@
                         `
                     );
                 }
-                resultList.innerHTML += "<b>We found " + rows.length-1 + " result</b>";
+                resultLen = rows.length - 1
+                resultList.innerHTML += "<b>We found " + resultLen + " result</b>";
                 resultList.innerHTML += rows.join(" ");
             },
         };
